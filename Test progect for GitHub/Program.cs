@@ -10,6 +10,8 @@ namespace Test_progect_for_GitHub
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("I made some changes again.");
+            Console.ReadKey();
         }
     }
 }
