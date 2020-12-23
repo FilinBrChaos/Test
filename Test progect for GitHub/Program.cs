@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Test_progect_for_GitHub
 {
@@ -11,6 +7,12 @@ namespace Test_progect_for_GitHub
         static void Main(string[] args)
         {
             Console.WriteLine("I made some changes again.");
+
+            for (int i = 0; i < 20; i++)
+            {
+                Console.Write(i + ", ");
+            }
+
             Console.ReadKey();
         }
     }
